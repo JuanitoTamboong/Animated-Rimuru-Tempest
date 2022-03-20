@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimuru</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background: hsla(212, 94%, 55%, 0.384);
+          
+        }
+        .body{
+            margin-left: 770px;
+            height: 200px;
+            width: 300px;
+            border: 1px solid none;
+            background: #658bb6;
+            margin-top: 300px;
+            border-radius: 200px 200px 100px 100px;
+          animation: body 5s linear 2s infinite alternate;
+          position:relative;
+          box-shadow: 1px 2px 3px 0px #000,
+                     inset 1px 2px 3px 4px #6aa2e2;
+        }
+        @keyframes body{
+            0%{background-color: #658bb6 ;top:0px;bottom:0px;}
+            20%{background-color: #658bb6 ;top:100px;bottom:100px;}
+            30%{background-color: #658bb6 ;top:0px;bottom:0px;}
+            40%{background-color: #658bb6 ;top:100px;bottom:100px;}
+            50%{background-color: #658bb6 ;top:0px;bottom:0px;}
+            70%{background-color: #658bb6 ;top:100px;bottom:100px;}
+            8%{background-color: #658bb6 ;top:0px;bottom:0px;}
+            90%{background-color: #658bb6 ;top:100px;bottom:100px;}
+            100%{background-color: #658bb6 ;top:0px;bottom:0px;}
+            
+        }
+        .eyes{
+            height: 70px;
+            width: 3px;
+            background: #000;
+            left: 70px;
+            top: 34px;
+            transform: rotate(-55deg);
+            position: absolute;
+            animation: eyes 1s  linear 2s infinite alternate;
+         }
+         @keyframes eyes{
+             90%{top:0px;bottom:-10px;}
+             20%{top:30px;bottom:0px;}
+         }
+       .eyes-2{
+        height: 80px;
+            width: 3px;
+            background: #000;
+            left:70px;
+            top:100px;
+            position: relative;
+            transform: rotate(-55deg);
+       }
+       .lashes{
+            height: 40px;
+            width: 1px;
+            background: #000;
+            right: -43px;
+            top: -79px;
+            position: absolute;
+            transform: rotate(70deg);
+           }
+           .lashes-2{
+            height: 40px;
+            width: 1px;
+            background: #000;
+            left: 20px;
+            bottom: 45px;
+            position: absolute;
+            transform: rotate(-380deg);
+           }
+        .shadow{
+            height: 50px;
+            width:270px;
+            border: 1px solid none;
+            position:absolute;
+            bottom: -3px;
+            border-radius: 50% ;
+            left: 20px;
+            background: rgba(248, 240, 240, 0.137);
+            
+        }
+        .shadow-2{
+            height: 30px;
+            width: 100px;
+            background: rgba(248, 240, 240, 0.137);
+            border-radius: 50%;
+            margin: 0px 65px;
+        }
+        .shadow-3{
+            height: 87px;
+            width: 45px;
+            background: rgba(248, 240, 240, 0.137);
+            border-radius: 50%;
+            margin: 0px 0px 0px 240px;
+            transform: rotateZ(-40deg);
+            }
+.road{
+    border-radius: 0px 0px 400px 400px;
+    background: #967919;
+    position: absolute;
+    height: 100px;
+    width:100%;
+    margin-bottom: -796px;
+    animation: road 5s linear 2s infinite alternate;
+
+}
+h2{
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    letter-spacing: 5px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px;
+    background: #658bb6;
+    animation: h2 5s linear 2s infinite alternate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: -20px;
+    position:absolute;
+    box-shadow: 1px 2px 3px 2px #000;
+}
+@keyframes h2{
+    0%{background-color: green;} 
+    20%{background-color: blue;}
+    3%{background-color: red;}
+    40%{background-color: orange;}
+    50%{background-color: pink;}
+    60%{background-color: green;}
+    70%{background-color: violet;}
+    80%{background-color: black;}
+    90%{background-color: brown;}
+    100%{background-color: gray;}
+}
+ img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+   margin-right: 750px;
+    position: relative;
+    padding: 5px;
+    top:-30px;
+    box-shadow: 1px 2px 3px 2px ;
+}
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="eyes">
+            <div class="eyes-2">
+                <div class="lashes"></div>
+                <div class="lashes-2"></div>
+    </div>
+    </div>
+    <div class="shadow"></div>
+    <div class="shadow-2"></div>
+    <div class="shadow-3"></div>
+    </div>
+<div class="road"></div>
+<img src="https://m.media-amazon.com/images/I/61xYW6no9VL._AC_SY355_.jpg"/>
+<h2>Rimuru Tempest</h2>
+</body>
+</html>
